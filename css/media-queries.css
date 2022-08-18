@@ -1,0 +1,65 @@
+@media screen and (max-width:992px){
+    body{
+        background-position: top;
+    }
+    .main-div{
+        padding: 15px;
+    }
+    .intro-section{
+        flex-direction: column-reverse;
+    }
+    .signin-btn{
+        margin-right: 0;
+    }
+    .left-section{
+        width: 100%;
+        text-align: center;
+    }
+    .left-section > h1{
+        margin-top: 0;
+    }
+    .left-section h4{
+        padding: 10px 2em;
+        font-size: large;
+    }
+    .imgs-div{
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width:768px){
+    nav img[alt="logo"]{
+        width: 4em;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .signin-btn{
+        font-size: small;
+    }
+    .nav-items{
+        display: none;
+    }
+    img[alt="intro-img"]{
+        width: 100% !important;
+    }
+    .left-section >h1{
+        font-size: 2.6rem;
+    }
+    .left-section h4{
+        padding: 0;
+    }
+    .learn-more-btn{
+        font-size: medium;
+    }
+}
+@media screen and (max-width:480px){
+    .vector-img{
+        bottom: 2em;
+        width: 5em;
+    }
+    .vector-dot{
+        bottom: 6em;
+    }
+}
